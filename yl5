@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/55aad314c9.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .jumbotron {
+        background-image: url("taust2.jpg");
+        background-size: cover;
+        color: #ffffff;
+        border-radius: 0;
+    }
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mr-auto">
+        <i class="fa-solid fa-hat-cowboy"></i>
+        <a class="navbar-brand" href="#">artur</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Avaleht <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kassa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                E-pood
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <form class="form-inline ml-auto">
+            <button class="btn btn-outline-success" type="submit">
+                <i class="fa-solid fa-hat-cowboy-side"></i>Logi sisse
+            </button>
+          </form>
+        </div>
+      </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Jumbotron</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
+        </div>
+    </div>
+    
+    <div class="card-group">
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pilt1.jpg" alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Magna</h5>
+                <span class="badge badge-info">Lorem</span>
+                <span class="badge badge-secondary">Ipsum</span>
+                <p class="card-text">
+                Cillum sit proident mollit reprehenderit irure. Incididunt voluptate labore commodo eiusmod aliqua id consectetur officia qui non aute. Officia ex ut laboris laboris do adipisicing eiusmod. Mollit labore cupidatat laboris aute cillum Lorem incididunt pariatur ullamco. Consequat consectetur pariatur eiusmod occaecat enim ex do deserunt sunt deserunt nulla consectetur esse ea. Velit nostrud esse consectetur elit. Occaecat deserunt non minim laboris sint.
+                </p>
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-bath"></i>
+                <i class="fa-solid fa-gears"></i>
+
+            </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pilt2.jpg" alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Minim</h5>
+                <span class="badge badge-danger">Lorem</span>
+                <span class="badge badge-secondary">Ipsum</span>
+                <p class="card-text">
+                    Labore sint id Lorem Lorem proident et mollit. Culpa labore exercitation veniam ex nulla eiusmod amet consectetur officia officia Lorem. Consequat consectetur ea velit amet et qui incididunt consectetur sunt deserunt do consectetur qui aliqua. Ullamco elit elit ex deserunt nisi proident et sunt nostrud officia irure esse tempor dolor. Nostrud eiusmod est aute eiusmod magna mollit mollit. Ea sunt ullamco fugiat do minim enim fugiat nostrud.
+                </p>
+                <i class="fa-solid fa-folder-open"></i>
+                <i class="fa-solid fa-filter"></i>
+                <i class="fa-solid fa-window-restore"></i>
+            </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pilt3.jpg" alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Aliquip</h5>
+                <span class="badge badge-primary">Lorem</span>
+                <span class="badge badge-secondary">Ipsum</span>
+                <p class="card-text">
+                    Eiusmod eiusmod ipsum consectetur voluptate ad non ex cillum. Fugiat nulla et deserunt do et ut proident in aliqua elit exercitation. Officia nulla excepteur laborum et Lorem cupidatat qui aliquip ex laborum excepteur. Magna do proident eu Lorem sint exercitation. Velit ipsum sint excepteur esse ea nulla. Duis irure eiusmod reprehenderit consectetur nulla nulla laborum exercitation.
+                </p>
+                <i class="fa-solid fa-sitemap"></i>
+                <i class="fa-solid fa-window-minimize"></i>
+                <i class="fa-solid fa-keyboard"></i>
+            </div>
+            </div>
+    </div>
+
+
+</body>
+</html>
