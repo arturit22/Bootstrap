@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>artur</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -11,24 +11,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/55aad314c9.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script>
-        $(function () {
-          $('[data-toggle="popover"]').popover();
-        })
-      </script>
-     
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 d-flex justify-content-between">
                 <h1>Lorem Ipsum</h1>
-                <a class="text-danger " href="#" title="hüpikaken" data-toggle="popover" data-content="hüpikaknatest" data-placement="bottom">?</a>
+                <a class="fas fa-question-circle text-danger" href="#" title="hüpikaken" data-toggle="popover" data-content="hüpikaknatest" data-placement="bottom"></a>
             </div>
         </div>
-        <div class="col-8">
-            <p>Fugiat fugiat consectetur occaecat voluptate eiusmod est occaecat cupidatat laborum. Sint ad quis esse quis non deserunt non do velit id minim anim sit. Officia est tempor velit minim occaecat. Nisi officia ut nostrud ad do nulla aute velit est nulla consectetur anim in. Minim velit commodo cillum deserunt reprehenderit ad non aute labore.Lorem officia commodo excepteur eiusmod exercitation et ipsum. Sunt elit sit eu officia duis cupidatat elit nostrud duis occaecat reprehenderit. Reprehenderit Lorem id occaecat consequat excepteur enim amet aute cupidatat. Occaecat nisi veniam amet nisi laborum nulla adipisicing nisi sint excepteur. Nostrud minim ad eu qui commodo ea cupidatat pariatur qui exercitation adipisicing aliquip.Fugiat dolore cillum reprehenderit fugiat. Mollit esse fugiat veniam non ullamco velit aliqua eiusmod do Lorem. Minim amet est occaecat sit in aute mollit adipisicing.</p>
+        <div class="col-12">
+            <p>Esse enim cupidatat reprehenderit reprehenderit duis non magna adipisicing aute. Ipsum mollit sunt exercitation ullamco aute laboris. Dolore anim qui consectetur pariatur ullamco enim occaecat eiusmod ullamco magna et ea qui anim.Id ut adipisicing consectetur tempor quis occaecat. Sit consectetur id veniam in eiusmod dolor pariatur. Laborum culpa eu exercitation ad eiusmod cillum Lorem magna reprehenderit reprehenderit sit. Sunt aliquip minim magna consequat excepteur ut.</p>
         </div>
     </div>
+    <script>
+        $(function () {
+          $('[data-toggle="popover"]').popover();
+        })
+    </script>
 </body>
 </html>
