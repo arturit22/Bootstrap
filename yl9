@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yl9</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/55aad314c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3>Tabel</h3>
+    <div class="d-flex justify-content-between align-items-center">
+        <button type="button" class="btn btn-success">+Lisa uus</button>
+        <form class="form-inline">
+            <input class="form-control" type="search" placeholder="otsi..." aria-label="Otsi">
+            <button class="btn btn-success" type="submit">Otsi</button>
+        </form>
+    </div>
+
+
+    </div>
+    <table class="table table-striped table-hover table-sm">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">pilt</th>
+          <th scope="col">nimi</th>
+          <th scope="col">email</th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td><img class="rounded-circle" style="height: 50px; width: 50px;" alt="pilt" src="pilt1.jpg"></td>
+          <td>Kopter</td>
+          <td>heli@kopter.ee</td>
+          <td><button type="button" class="btn btn-warning">Muuda</button></td>
+          <td><button type="button" class="btn btn-danger">Kustuta</button></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td><img class="rounded-circle" style="height: 50px; width: 50px;" alt="pilt" src="pilt1.jpg"></td>
+          <td>Karin Eegreid</td>
+          <td>karin@kopter.ee</td>
+          <td><button type="button" class="btn btn-warning">Muuda</button></td>
+          <td><button type="button" class="btn btn-danger">Kustuta</button></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td><img class="rounded-circle" style="height: 50px; width: 50px;" alt="pilt" src="pilt1.jpg"></td>
+          <td>Anna Musu</td>
+          <td>anna@musu.ee</td>
+          <td><button type="button" class="btn btn-warning">Muuda</button></td>
+          <td><button type="button" class="btn btn-danger">Kustuta</button></td>
+        </tr>
+        <th scope="row">4</th>
+          <td><img class="rounded-circle" style="height: 50px; width: 50px;" alt="pilt" src="pilt1.jpg"></td>
+          <td>Aili Bastusin</td>
+          <td>aili@libastusin.ee</td>
+          <td><button type="button" class="btn btn-warning">Muuda</button></td>
+          <td><button type="button" class="btn btn-danger">Kustuta</button></td>
+      </tbody>
+    </table>
+    <nav>
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item active"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+        </ul>
+      </nav>
+</body>
+</html>
