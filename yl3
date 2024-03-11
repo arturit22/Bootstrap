@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinu Nimi</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header-image {
+    max-width: 1000px; 
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .post {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    max-width: 900px;
+    flex-direction: row;
+    margin-left: 500px;
+  }
+  .post img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+  }
+  .post-content {
+    max-width: calc(100% - 220px);
+    align-items: center;
+  }
+  h2 {
+    margin: 0 0 10px;
+  }
+  @media (max-width: 768px) {
+    .post {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .post img {
+      margin-bottom: 20px;
+    }
+    .post-content {
+      max-width: 100%;
+    }
+  }
+  .text-container {
+    margin-left: 450px;
+  }
+</style>
+</head>
+<body>
+
+<div class="text-container">
+    <h1>Artur.com</h1>
+</div>
+
+<div class="header">
+  <img src="fish2.jpg" alt="Header Image" class="header-image">
+</div>
+
+<div class="posts">
+  <!-- Post 1 -->
+  <div class="post">
+    <img src="fish.jpg" alt="Round Image 1">
+    <div class="post-content">
+      <h2>Lorem Ipsum</h2>
+      <p>Laboris nisi aliquip officia ad consequat ullamco exercitation laboris Lorem aliquip. Aliqua sunt do dolor duis cillum est adipisicing ullamco. Occaecat eiusmod amet eiusmod eu in occaecat eu commodo. Ad eiusmod nisi sint reprehenderit sunt eiusmod veniam sit ea deserunt culpa. Ad deserunt amet do labore ad reprehenderit nulla consectetur. Ullamco sint laborum commodo commodo laboris exercitation excepteur dolor cupidatat ex.</p>
+    </div>
+  </div>
+  <!-- Post 2 -->
+  <div class="post">
+    <img src="fish.jpg" alt="Round Image 2">
+    <div class="post-content">
+      <h2>Lorem Ipsum</h2>
+      <p>Duis occaecat cupidatat nulla tempor veniam laborum eu adipisicing ad. Magna sunt cupidatat consequat quis consequat fugiat in aliquip tempor sunt enim. Elit minim enim sit ipsum. Quis incididunt consequat aliquip veniam ullamco quis duis aute cillum et quis officia. Deserunt ipsum ea dolore in nostrud est exercitation officia culpa officia nostrud. Proident laborum sunt consectetur in ullamco anim nulla adipisicing in veniam Lorem duis occaecat et.</p>
+    </div>
+  </div>
+  <!-- Post 3 -->
+  <div class="post">
+    <img src="fish.jpg" alt="Round Image 3">
+    <div class="post-content">
+      <h2>Lorem Ipsum</h2>
+      <p>Nostrud voluptate velit anim consectetur qui officia cupidatat reprehenderit non esse veniam anim ullamco. Reprehenderit officia occaecat excepteur ad Lorem voluptate pariatur sit duis tempor qui nostrud non. Proident consectetur dolor exercitation ut reprehenderit minim occaecat occaecat excepteur esse. Fugiat dolore consectetur aliqua dolor.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
