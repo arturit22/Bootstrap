@@ -66,7 +66,7 @@
 </div>
 
 <div class="posts">
-  <!-- Post 1 -->
+
   <div class="post">
     <img src="fish.jpg" alt="Round Image 1">
     <div class="post-content">
@@ -74,7 +74,7 @@
       <p>Laboris nisi aliquip officia ad consequat ullamco exercitation laboris Lorem aliquip. Aliqua sunt do dolor duis cillum est adipisicing ullamco. Occaecat eiusmod amet eiusmod eu in occaecat eu commodo. Ad eiusmod nisi sint reprehenderit sunt eiusmod veniam sit ea deserunt culpa. Ad deserunt amet do labore ad reprehenderit nulla consectetur. Ullamco sint laborum commodo commodo laboris exercitation excepteur dolor cupidatat ex.</p>
     </div>
   </div>
-  <!-- Post 2 -->
+
   <div class="post">
     <img src="fish.jpg" alt="Round Image 2">
     <div class="post-content">
@@ -82,7 +82,7 @@
       <p>Duis occaecat cupidatat nulla tempor veniam laborum eu adipisicing ad. Magna sunt cupidatat consequat quis consequat fugiat in aliquip tempor sunt enim. Elit minim enim sit ipsum. Quis incididunt consequat aliquip veniam ullamco quis duis aute cillum et quis officia. Deserunt ipsum ea dolore in nostrud est exercitation officia culpa officia nostrud. Proident laborum sunt consectetur in ullamco anim nulla adipisicing in veniam Lorem duis occaecat et.</p>
     </div>
   </div>
-  <!-- Post 3 -->
+
   <div class="post">
     <img src="fish.jpg" alt="Round Image 3">
     <div class="post-content">
